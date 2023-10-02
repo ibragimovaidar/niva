@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e25c70ea-4b00-46ea-9f3b-8f50abae265b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/achievement-service-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/achievement-service-client/src/main/java/ru/sber/niva/achievementclient/dto/request/AchievementRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/achievement-service-client/src/main/java/ru/sber/niva/achievementclient/dto/request/CreateUserAchievementRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/achievement-service-client/src/main/java/ru/sber/niva/achievementclient/dto/request/FilterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/achievement-service-client/src/main/java/ru/sber/niva/achievementclient/dto/request/UpdateUserAchievementRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/achievement-service-client/src/main/java/ru/sber/niva/achievementclient/dto/response/AchievementResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/achievement-service-client/src/main/java/ru/sber/niva/achievementclient/dto/response/UserAchievementResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bff-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff117824-7df8-4aea-afa3-09697119412d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ff117824-7df8-4aea-afa3-09697119412d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff117824-7df8-4aea-afa3-09697119412d/storage_v2/_src_/database/mydatabase.J7NGgg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ff117824-7df8-4aea-afa3-09697119412d/storage_v2/_src_/database/mydatabase.J7NGgg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/niva-achivements/src/main/java/ru/sber/niva/achievements/controller/rest/AchievementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/niva-achivements/src/main/java/ru/sber/niva/achievements/controller/rest/AchievementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/achievement-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/achievement-service-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff-service/src/main/java/ru/sber/niva/bffservice/BffServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bff-service/src/main/java/ru/sber/niva/bffservice/BffServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff-service/src/main/java/ru/sber/niva/bffservice/FeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/bff-service/src/main/java/ru/sber/niva/bffservice/config/FeignConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bff-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jira-rest-client/src/main/java/ru/sber/niva/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jira-rest-client/src/main/java/ru/sber/niva/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +69,12 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.sber.niva.bffservice.dto.request" />
       <recent name="ru.sber.niva.achievements.controller.rest" />
       <recent name="ru.sber.niva.achievements.service" />
       <recent name="ru.sber.niva.achievements.model.domain" />
@@ -89,7 +85,7 @@
       <recent name="$PROJECT_DIR$/niva-achivements/src/main/java/ru/sber/niva/achievements/exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.NivaAchievementsService">
+  <component name="RunManager" selected="Spring Boot.BffServiceApplication">
     <configuration name="BffServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="bff-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.sber.niva.bffservice.BffServiceApplication" />
@@ -135,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NivaAchievementsService" />
         <item itemvalue="Spring Boot.BffServiceApplication" />
+        <item itemvalue="Spring Boot.NivaAchievementsService" />
         <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -149,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696239820766</updated>
-      <workItem from="1696239821797" duration="23573000" />
+      <workItem from="1696239821797" duration="29963000" />
     </task>
     <servers />
   </component>

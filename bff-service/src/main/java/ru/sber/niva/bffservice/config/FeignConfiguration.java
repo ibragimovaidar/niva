@@ -1,4 +1,4 @@
-package ru.sber.niva.bffservice;
+package ru.sber.niva.bffservice.config;
 
 import org.springframework.cloud.openfeign.support.PageJacksonModule;
 import org.springframework.cloud.openfeign.support.SortJacksonModule;

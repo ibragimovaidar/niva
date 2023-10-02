@@ -15,7 +15,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>jira-rest-client</module>
         <module>jira-metric-adapter</module>
         <module>niva-achivements</module>
         <module>bff-service</module>
@@ -29,6 +28,36 @@
         <spring.cloud.version>2022.0.4</spring.cloud.version>
 
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>ru.sber.niva</groupId>
+                <artifactId>jira-rest-client</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>ru.sber.niva</groupId>
+                <artifactId>jira-metric-adapter</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ru.sber.niva</groupId>
+                <artifactId>achievement-service-client</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ru.sber.niva</groupId>
+                <artifactId>niva-achivements</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>

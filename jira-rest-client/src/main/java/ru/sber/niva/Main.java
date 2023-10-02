@@ -13,6 +13,5 @@ public class Main {
 
         var issueClient = jiraRestClient.getIssueClient();
         var issue = issueClient.getIssue("1");
-        issue.then()
     }
 }

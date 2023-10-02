@@ -1,6 +1,10 @@
 server:
   port: 8088
 
+
+app:
+  login-redirect-url: localhost:80
+
 external:
   achievement:
     url: http://localhost:8081/
