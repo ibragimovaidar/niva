@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  datasource:
+    password: mypassword
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: myuser
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:5432/mydatabase
+      password: mypassword
+      username: myuser
+
+
+server:
+  port: 8081
