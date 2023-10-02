@@ -41,7 +41,7 @@ public class AchievementController {
     }
 
     @ResponseStatus(HttpStatus.OK)
-    @GetMapping("/filter")
+    @PostMapping("/filter")
     public List<AchievementResponse> filter(@RequestBody FilterRequest request) {
         return achievementService.filter(request);
     }

@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.49">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>774</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1086</IntrospectionStateNumber>
       <ServerVersion>15.3</ServerVersion>
       <StartupTime>1696251463</StartupTime>
       <TimeZones>true ACDT
@@ -1396,7 +1396,7 @@ true posixrules
 13186||10|C|G
 13186||-9223372036854775808|U|G
 13186||10|U|G</Grants>
-      <IntrospectionStateNumber>774</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1086</IntrospectionStateNumber>
       <ObjectId>16384</ObjectId>
       <OwnerName>myuser</OwnerName>
     </database>
@@ -4814,34 +4814,34 @@ true posixrules
     <schema id="262" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>774</IntrospectionStateNumber>
-      <IntrospectionTimestamp>2023-10-02.19:18:13.539</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-10-02.16:18:13</LocalIntrospectionTimestamp>
+      <IntrospectionStateNumber>1086</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2023-10-02.20:57:14.112</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-10-02.17:57:14</LocalIntrospectionTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <table id="263" parent="262" name="achievement">
-      <ObjectId>16423</ObjectId>
-      <StateNumber>772</StateNumber>
+      <ObjectId>17144</ObjectId>
+      <StateNumber>1081</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>myuser</OwnerName>
     </table>
     <table id="264" parent="262" name="challenge">
-      <ObjectId>16430</ObjectId>
-      <StateNumber>769</StateNumber>
+      <ObjectId>17151</ObjectId>
+      <StateNumber>1078</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>myuser</OwnerName>
     </table>
     <table id="265" parent="262" name="user_achievement">
-      <ObjectId>16437</ObjectId>
-      <StateNumber>772</StateNumber>
+      <ObjectId>17158</ObjectId>
+      <StateNumber>1081</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>myuser</OwnerName>
     </table>
     <table id="266" parent="262" name="user_challenge">
-      <ObjectId>16442</ObjectId>
-      <StateNumber>773</StateNumber>
+      <ObjectId>17163</ObjectId>
+      <StateNumber>1082</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>myuser</OwnerName>
     </table>
@@ -4849,215 +4849,227 @@ true posixrules
       <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>768</StateNumber>
+      <StateNumber>1077</StateNumber>
       <TypeId>2950</TypeId>
     </column>
     <column id="268" parent="263" name="create_date">
       <DasType>timestamp|0s</DasType>
       <Position>2</Position>
-      <StateNumber>768</StateNumber>
+      <StateNumber>1077</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="269" parent="263" name="update_date">
       <DasType>timestamp|0s</DasType>
       <Position>3</Position>
-      <StateNumber>768</StateNumber>
+      <StateNumber>1077</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="270" parent="263" name="description">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>768</StateNumber>
+      <StateNumber>1077</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="271" parent="263" name="icon">
       <DasType>bytea|0s</DasType>
       <Position>5</Position>
-      <StateNumber>768</StateNumber>
+      <StateNumber>1077</StateNumber>
       <TypeId>17</TypeId>
     </column>
     <column id="272" parent="263" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>6</Position>
-      <StateNumber>768</StateNumber>
+      <StateNumber>1077</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="273" parent="263" name="achievement_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16428</ObjectId>
+      <ObjectId>17149</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>768</StateNumber>
+      <StateNumber>1077</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="274" parent="263" name="achievement_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16429</ObjectId>
+      <ObjectId>17150</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>768</StateNumber>
-      <UnderlyingIndexId>16428</UnderlyingIndexId>
+      <StateNumber>1077</StateNumber>
+      <UnderlyingIndexId>17149</UnderlyingIndexId>
     </key>
     <column id="275" parent="264" name="id">
       <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>2950</TypeId>
     </column>
     <column id="276" parent="264" name="create_date">
       <DasType>timestamp|0s</DasType>
       <Position>2</Position>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="277" parent="264" name="update_date">
       <DasType>timestamp|0s</DasType>
       <Position>3</Position>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="278" parent="264" name="description">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="279" parent="264" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="280" parent="264" name="status">
       <DasType>integer|0s</DasType>
       <Position>6</Position>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="281" parent="264" name="challenge_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16435</ObjectId>
+      <ObjectId>17156</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>769</StateNumber>
+      <StateNumber>1078</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="282" parent="264" name="challenge_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16436</ObjectId>
+      <ObjectId>17157</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>769</StateNumber>
-      <UnderlyingIndexId>16435</UnderlyingIndexId>
+      <StateNumber>1078</StateNumber>
+      <UnderlyingIndexId>17156</UnderlyingIndexId>
     </key>
     <column id="283" parent="265" name="id">
       <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>770</StateNumber>
+      <StateNumber>1079</StateNumber>
       <TypeId>2950</TypeId>
     </column>
     <column id="284" parent="265" name="create_date">
       <DasType>timestamp|0s</DasType>
       <Position>2</Position>
-      <StateNumber>770</StateNumber>
+      <StateNumber>1079</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="285" parent="265" name="update_date">
       <DasType>timestamp|0s</DasType>
       <Position>3</Position>
-      <StateNumber>770</StateNumber>
+      <StateNumber>1079</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="286" parent="265" name="user_id">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="286" parent="265" name="goal">
+      <DasType>integer|0s</DasType>
       <Position>4</Position>
-      <StateNumber>770</StateNumber>
+      <StateNumber>1079</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="287" parent="265" name="progress">
+      <DasType>integer|0s</DasType>
+      <Position>5</Position>
+      <StateNumber>1079</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="288" parent="265" name="user_id">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+      <StateNumber>1079</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="287" parent="265" name="achievement_id">
+    <column id="289" parent="265" name="achievement_id">
       <DasType>uuid|0s</DasType>
-      <Position>5</Position>
-      <StateNumber>770</StateNumber>
+      <Position>7</Position>
+      <StateNumber>1079</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <foreign-key id="288" parent="265" name="fkcxeo6malce3dsw6tc43bcrwfd">
+    <foreign-key id="290" parent="265" name="fkcxeo6malce3dsw6tc43bcrwfd">
       <ColNames>achievement_id</ColNames>
-      <ObjectId>16447</ObjectId>
-      <StateNumber>772</StateNumber>
+      <ObjectId>17168</ObjectId>
+      <StateNumber>1081</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>16423</RefTableId>
+      <RefTableId>17144</RefTableId>
     </foreign-key>
-    <index id="289" parent="265" name="user_achievement_pkey">
+    <index id="291" parent="265" name="user_achievement_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16440</ObjectId>
+      <ObjectId>17161</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>770</StateNumber>
+      <StateNumber>1079</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="290" parent="265" name="user_achievement_pkey">
+    <key id="292" parent="265" name="user_achievement_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16441</ObjectId>
+      <ObjectId>17162</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>770</StateNumber>
-      <UnderlyingIndexId>16440</UnderlyingIndexId>
+      <StateNumber>1079</StateNumber>
+      <UnderlyingIndexId>17161</UnderlyingIndexId>
     </key>
-    <column id="291" parent="266" name="id">
+    <column id="293" parent="266" name="id">
       <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>771</StateNumber>
+      <StateNumber>1080</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <column id="292" parent="266" name="create_date">
+    <column id="294" parent="266" name="create_date">
       <DasType>timestamp|0s</DasType>
       <Position>2</Position>
-      <StateNumber>771</StateNumber>
+      <StateNumber>1080</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="293" parent="266" name="update_date">
+    <column id="295" parent="266" name="update_date">
       <DasType>timestamp|0s</DasType>
       <Position>3</Position>
-      <StateNumber>771</StateNumber>
+      <StateNumber>1080</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="294" parent="266" name="user_id">
+    <column id="296" parent="266" name="user_id">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>771</StateNumber>
+      <StateNumber>1080</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="295" parent="266" name="challenge_id">
+    <column id="297" parent="266" name="challenge_id">
       <DasType>uuid|0s</DasType>
       <Position>5</Position>
-      <StateNumber>771</StateNumber>
+      <StateNumber>1080</StateNumber>
       <TypeId>2950</TypeId>
     </column>
-    <foreign-key id="296" parent="266" name="fk1ntkp0vw07q93e7398jlvwbff">
+    <foreign-key id="298" parent="266" name="fk1ntkp0vw07q93e7398jlvwbff">
       <ColNames>challenge_id</ColNames>
-      <ObjectId>16452</ObjectId>
-      <StateNumber>773</StateNumber>
+      <ObjectId>17173</ObjectId>
+      <StateNumber>1082</StateNumber>
       <RefKeyColPositions>1</RefKeyColPositions>
-      <RefTableId>16442</RefTableId>
+      <RefTableId>17163</RefTableId>
     </foreign-key>
-    <index id="297" parent="266" name="user_challenge_pkey">
+    <index id="299" parent="266" name="user_challenge_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16445</ObjectId>
+      <ObjectId>17166</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>771</StateNumber>
+      <StateNumber>1080</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="298" parent="266" name="user_challenge_pkey">
+    <key id="300" parent="266" name="user_challenge_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16446</ObjectId>
+      <ObjectId>17167</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>771</StateNumber>
-      <UnderlyingIndexId>16445</UnderlyingIndexId>
+      <StateNumber>1080</StateNumber>
+      <UnderlyingIndexId>17166</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

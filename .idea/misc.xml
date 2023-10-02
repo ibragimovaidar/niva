@@ -10,7 +10,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/bitbucket-rest-client/pom.xml" />
+        <option value="$PROJECT_DIR$/jira-rest-client/pom.xml" />
         <option value="$PROJECT_DIR$/metric-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-clients/pom.xml" />
       </set>
     </option>
   </component>
