@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: jira-metric-adapter
+
+kafka:
+  in:
+    bootstrap-servers: ${BOOTSTRAP_SERVER:PLAINTEXT://localhost:9092}
+    metric-consumer-topic: ${JIRA_METRIC_CONSUMER_TOPIC:jira_metric_consumer}
+  out:
+    bootstrap-servers: ${BOOTSTRAP_SERVER:PLAINTEXT://localhost:9092}
+    metric-producer-topic: ${JIRA_METRIC_PRODUCER_TOPIC:jira_metric_producer}
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  datasource:
+    password: mypassword
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: myuser
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:5432/mydatabase
+      password: mypassword
+      username: myuser

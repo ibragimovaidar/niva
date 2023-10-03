@@ -19,6 +19,8 @@
         <module>niva-achivements</module>
         <module>bff-service</module>
         <module>achievement-service-client</module>
+        <module>jira-adapter</module>
+        <module>metric-adapter-api</module>
     </modules>
 
     <properties>
